@@ -44,6 +44,21 @@ header ul li{
     position: relative;
 }
 
+header ul li a{
+    display: block;
+    padding: 21px;
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
+
+header ul li a:hover{
+    background-color: dodgerblue;
+    transition: 0.5s;
+}
+
+
 header ul li ul{
     position: absolute;
     top:66px;
@@ -66,19 +81,49 @@ header ul li ul li a{
     color: #0e0d0d;
 }
 
-header ul li a{
-    display: block;
-    padding: 21px;
-    font-size: 1em;
-    text-decoration: none;
-    text-transform: capitalize;
-
-}
-header ul li a:hover{
-    background-color: dodgerblue;
-    transition: 0.5s;
-}
-
 header .fa-bars{
     display: none;
+}
+
+    /* Media Queries */
+@media only screen and (max-width:750px) {
+    header{
+        position: relative;
+    }
+    header .logo {
+        margin-left: .8em;
+    }
+    header ul{
+        width: 100%;
+        background-color: #0e0d0d;
+        max-height: 0;
+        overflow: hidden;
+    }
+    .showing{
+        max-height: 100em;
+    }
+    header ul li{
+        width: 100%;
+    }
+    header ul li ul{
+        position: static;
+        padding:10px;
+        width: 100%;
+        display: block;
+    }
+    header ul li ul li {
+        background-color: #0e0d0d;
+    }
+    header ul li ul li a{
+        color: #fff;
+        padding-left: 50px;
+    }
+    header .fa-bars{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 40px;
+    }
+
 }
