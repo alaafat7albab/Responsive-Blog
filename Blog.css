@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Merienda', cursive;
+}
+
+body{
+    background-color: #fffafa;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #0e0d0d;
+    height: 66px;
+}
+
+header *{
+    color: #fff;
+}
+
+header .logo{
+    float: left;
+    height: inherit;
+    margin-left: 2em;
+}
+
+header .logo_text{
+    font-family: 'Merienda One', cursive;
+    text-transform: uppercase;
+    color: dodgerblue;
+    margin: 10px;
+    font-size: 40px;
+}
+
+header ul{
+    float: right;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+header ul li{
+    float: left;
+    position: relative;
+}
+
+header ul li ul{
+    position: absolute;
+    top:66px;
+    right: 0;
+    width: 150px;
+    display: none;
+}
+
+header ul  li:hover ul{
+    display: block;
+}
+
+header ul li ul li {
+    width: 100%;
+    background-color: #5e7184;
+}
+
+header ul li ul li a{
+    padding: 10px;
+    color: #0e0d0d;
+}
+
+header ul li a{
+    display: block;
+    padding: 21px;
+    font-size: 1em;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
+header ul li a:hover{
+    background-color: dodgerblue;
+    transition: 0.5s;
+}
+
+header .fa-bars{
+    display: none;
+}
