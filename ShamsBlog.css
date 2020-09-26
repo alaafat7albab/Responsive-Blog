@@ -9,6 +9,9 @@ body{
     margin: 0;
 }
 
+ /*================
+    *==Start Header==
+    =================*/
 header{
     background-color: #0e0d0d;
     height: 66px;
@@ -29,7 +32,7 @@ header .logo_text{
     text-transform: uppercase;
     color: dodgerblue;
     margin: 10px;
-    font-size: 40px;
+    font-size: 38px;
 }
 
 header ul{
@@ -84,18 +87,104 @@ header ul li ul li a{
 header .fa-bars{
     display: none;
 }
+    /*==============
+    *==End Header==
+    ===============*/
 
-    /* Media Queries */
+    /*======================
+    *==Start Page Wrapper==
+    =======================*/
+
+
+        /*Start Post Slider*/
+.post_slider{
+    position: relative;
+}
+
+.page_wrapper .post_slider .slider_tittle{
+    text-transform: capitalize;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.post_slider .prev{
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.post_slider .next{
+    position: absolute;
+    top:50%;
+    right:50px;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+        /*End Post Slider*/
+
+        /*Start Post Wrapper*/
+.page_wrapper .post_slider .post_wrapper{
+    overflow: hidden;
+    width: 84%;
+    height: 350px;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+.post_slider .post_wrapper .post{
+    width: 300px;
+    height: 330px;
+    margin: 0 10px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 1rem 1rem 1rem -1rem #0e0d0d ;
+}
+
+.post_slider .post_wrapper .post .slider_image{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.post_slider .post_wrapper .post .post_info{
+    height: 130px;
+    padding: 0 5px;
+}
+
+.post_slider .post_wrapper .post .post_info h4 a{
+    text-decoration: none;
+    color: #0e0d0d;
+    font-family: Serif, cursive, sans-serif;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.post_slider .post_wrapper .post .post_info h4 a:hover{
+    color: dodgerblue;
+}
+
+    /*=================
+     *==Media Queries==
+    ===================*/
 @media only screen and (max-width:750px) {
     header{
         position: relative;
     }
     header .logo {
         margin-left: .8em;
+        width: 100%;
+    }
+    header .logo_text{
+        font-size: 30px;
+        margin: 15px;
     }
     header ul{
-        width: 100%;
-        background-color: #0e0d0d;
+        width: 50%;
+        background-color: #5e7184;
         max-height: 0;
         overflow: hidden;
     }
@@ -112,7 +201,7 @@ header .fa-bars{
         display: block;
     }
     header ul li ul li {
-        background-color: #0e0d0d;
+        background-color: #5e7184;
     }
     header ul li ul li a{
         color: #fff;
@@ -123,7 +212,7 @@ header .fa-bars{
         position: absolute;
         top: 20px;
         right: 20px;
-        font-size: 40px;
+        font-size: 30px;
     }
 
 }
