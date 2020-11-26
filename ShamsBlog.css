@@ -38,6 +38,19 @@ a{
     color: #fff !important;
     background: dodgerblue;
 }
+.text_input{
+    padding: .7rem 1rem;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    color: #5e7184;
+    line-height: 1.5rem;
+    font-family: 'Lora', serif;
+    font-size: 17px;
+    border: 1px solid #e0e0e0;
+}
+
 /******************
  ** Start Header **
  ******************/
@@ -165,7 +178,6 @@ header ul li ul li a{
 .page_wrapper .content{
     width: 90%;
     margin: 30px auto;
-    border: 1px solid red;
 }
 .page_wrapper .content .main_content{
     width: 70%;
@@ -212,9 +224,33 @@ header ul li ul li a{
     width: 30%;
     float: left;
     height: 300px;
-    border: 1px solid green;
+    padding-top:78px;
 }
-
+.page_wrapper .content .sidebar .section{
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.page_wrapper .content .sidebar .section.topic .topic_title{
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+.page_wrapper .content .sidebar .section.topic ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #e0e0e0;
+}
+.page_wrapper .content .sidebar .section.topic ul li a{
+    display: block;
+    padding: 15px 0;
+    border-bottom:1px solid #e0e0e0;
+}
+.page_wrapper .content .sidebar .section.topic ul li a:hover{
+    padding-left: 20px;
+    transition: all .3s;
+}
 /**********************
  ** End Page Wrapper **
  **********************/
