@@ -301,11 +301,11 @@ header ul li ul li a{
 .footer{
     background: #0e0d0d;
     color: #fff;
-    height: 370px;
+    height: 350px;
     position: relative;
 }
 .footer .footer_content{
-    height: 345px;
+    height: 325px;
     overflow: hidden;
     display: flex;
 }
