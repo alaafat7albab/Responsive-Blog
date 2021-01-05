@@ -36,6 +36,8 @@ a{
     background: #5e7184;
     border: 1px solid transparent;
     border-radius: .25rem;
+    font-size: 1.08em;
+    font-family: 'Lora', serif;
 }
 .btn:hover{
     color: #fff !important;
@@ -295,6 +297,33 @@ header ul li ul li a{
  ** End Page Wrapper **
  **********************/
 
+/**********************
+ ** Start Auth Pages **
+ **********************/
+.auth_content{
+    width: 30%;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+}
+.auth_content form .form_title{
+    text-align: center;
+}
+.auth_content form div{
+    margin-bottom:10px;
+}
+.auth_content form p{
+    text-align: center;
+}
+.auth_content form p a{
+    color: dodgerblue;
+    text-decoration: underline;
+}
+/********************
+ ** End Auth pages **
+ ********************/
+
 /******************
  ** Start Footer **
  ******************/
@@ -315,6 +344,7 @@ header ul li ul li a{
 }
 .footer .footer_content h1{
     color: dodgerblue;
+    text-transform: uppercase;
 }
 .footer .footer_content h2{
     color: #fff;

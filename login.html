@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="ShamsBlog.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+
+<!-- Start Header -->
+<header>
+    <div class="logo">
+        <h1 class="logo_text">shams</h1>
+    </div>
+    <i class="fas fa-bars"></i>
+    <ul class="nav">
+        <li><a href="#">home</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">services</a></li>
+        <li>
+            <a href="#">
+                <i class="fas fa-user"></i>
+                shams
+                <i class="fas fa-chevron-down" style="font-size:.8em;"></i>
+            </a>
+            <ul>
+                <li><a href="#">dashboard</a></li>
+                <li><a href="#">logout</a></li>
+            </ul>
+        </li>
+    </ul>
+</header>
+<!-- End Header -->
+
+<!-- Start Register Form -->
+<div class="auth_content">
+    <form action="login.html" method="post">
+        <h2 class="form_title">login</h2>
+        <div>
+            <label>
+                <input type="text" name="username" placeholder="Username" class="text_input">
+            </label>
+        </div>
+        <div>
+            <label>
+                <input type="password" name="password" placeholder="Password" class="text_input">
+            </label>
+        </div>
+        <div>
+            <button type="submit" name="login_btn" class="btn btn_big">Login</button>
+        </div>
+        <p> Or <a href="register.html">Sign Up </a></p>
+    </form>
+</div>
+<!-- End Register Form -->
+
+<!-- JQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+<!-- Custom Script -->
+<script src="Script.js"></script>
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/ce3f4ce02a.js" crossorigin="anonymous"></script>
+</body>
+</html>
