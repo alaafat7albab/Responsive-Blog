@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2700faa6-9e3a-4532-bfe2-ae194eb8cd87" name="Default Changelist" comment="Register and Login page">
+    <list default="true" id="2700faa6-9e3a-4532-bfe2-ae194eb8cd87" name="Default Changelist" comment="Register and Login pages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +89,7 @@
       <workItem from="1607977304372" duration="7404000" />
       <workItem from="1608880391227" duration="2619000" />
       <workItem from="1609018454567" duration="473000" />
-      <workItem from="1609751744909" duration="8942000" />
+      <workItem from="1609751744909" duration="9585000" />
     </task>
     <task id="LOCAL-00001" summary="Review">
       <created>1604393619151</created>
@@ -149,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609878126440</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Register and Login pages">
+      <created>1609879372973</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609879372973</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +182,8 @@
     <MESSAGE value="Embedd a Facebook Page on your website" />
     <MESSAGE value="Embedd a Facebook Page on website" />
     <MESSAGE value="Register and Login page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Register and Login page" />
+    <MESSAGE value="Register and Login pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Register and Login pages" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
